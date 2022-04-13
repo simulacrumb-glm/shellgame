@@ -2,8 +2,10 @@
 pragma solidity >=0.7.11;
 
 /**
- * @title Storage
- * @dev Store & retrieve value in a variable
+ * @title Shellgame
+ * @dev A simple chance game extended from ChainIDE storage template
+        Designed for CVM so that gas used is equal in the wallet for win or loss
+        retrieve() should be made private or admin only if deployed to mainnet
  */
 contract Shellgame {
 
